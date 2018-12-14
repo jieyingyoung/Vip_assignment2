@@ -1,3 +1,4 @@
+
 1. Our program was made using opencv, numpy, scipy, matplotlib libraries. Our python  version was 3.6.7 .The links to install each of these libraries are listed below:
 
 opencv: https://docs.opencv.org/3.4.3/df/d65/tutorial_table_of_content_introduction.html
@@ -21,7 +22,7 @@ python 3.6: https://www.python.org/downloads/
 
 3. What about the own-produced programme:
   
-    We implemented our programme with the ¡®get_harris_position¡¯ in the first part, after getting the interest point in both pictures, we took patches on each interest points with ¡®get_patch¡¯ and ¡®extract_patch¡¯ functions, after this, we calculated the SSD numbers, and stored them in a list called ¡°similarity¡±, after sorting them, we took the smallest and the second smallest SSDs to compare, if they satisfy the condition that we mentioned before, we choose them as the accepted matches. We also implemented the reversed comparison, taking the patches in image 2 as the beginning patches to match, we got the reversed matching. After this, we created a eliminate-multi-matches funtion to try to eliminate the multi-matches. 
+    We implemented our programme with the ï½¡ï½®get_harris_positionï½¡ï½¯ in the first part, after getting the interest point in both pictures, we took patches on each interest points with ï½¡ï½®get_patchï½¡ï½¯ and ï½¡ï½®extract_patchï½¡ï½¯ functions, after this, we calculated the SSD numbers, and stored them in a list called ï½¡ï½°similarityï½¡ï½±, after sorting them, we took the smallest and the second smallest SSDs to compare, if they satisfy the condition that we mentioned before, we choose them as the accepted matches. We also implemented the reversed comparison, taking the patches in image 2 as the beginning patches to match, we got the reversed matching. After this, we created a eliminate-multi-matches funtion to try to eliminate the multi-matches. 
 
 
 
